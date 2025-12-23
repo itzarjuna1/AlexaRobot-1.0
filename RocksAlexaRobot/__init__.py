@@ -262,7 +262,7 @@ tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
 
 print("Starting Pyrogram Client")
-pgram.start()
+pgram.run()
 
 print("Aquiring BOT Client Info")
 
